@@ -90,9 +90,9 @@ async def stats(_, message):
 
 async def start(client, message):
     buttons = ButtonMaker()
-    buttons.ubutton("Repo", "https://github.com/MOGAMBO-XD/Mirrorbot")
-    buttons.ubutton("Owner", "https://t.me/itsmeleave")
-    buttons.ubutton("Update", "https://t.me/AYATOPROJECT")
+    buttons.ubutton("Gateway", "https://t.me/xyradelw")
+    buttons.ubutton("Owner", "https://t.me/unil_vr")
+    buttons.ubutton("Cautions", "https://stashbin.xyz/kuonelybxf")
    
     reply_markup = buttons.build_menu(2)
     if await CustomFilters.authorized(client, message):
