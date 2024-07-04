@@ -77,7 +77,7 @@ class TelegraphHelper:
 
 
 telegraph = TelegraphHelper(
-    "AYATOPROJECT", "https://github.com/MOGAMBO-XD/Mirrorbot"
+    "meiyonghua", "https://t.me/xyradelw"
 )
 
 bot_loop.run_until_complete(telegraph.create_account())
