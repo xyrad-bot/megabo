@@ -92,7 +92,7 @@ async def start(client, message):
     buttons = ButtonMaker()
     buttons.ubutton("Gateway", "https://t.me/xyradelw")
     buttons.ubutton("Owner", "https://t.me/unil_vr")
-    buttons.ubutton("Cautions", "https://stashbin.xyz/kuonelybxf")
+    buttons.ubutton("Cautions", "https://stashbin.xyz/raw/kuonelybxf")
    
     reply_markup = buttons.build_menu(2)
     if await CustomFilters.authorized(client, message):
